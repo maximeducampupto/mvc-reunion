@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: #cacaca;
+}
+
+.flash-success {
+    background: rgba(0, 166, 0, 0.55);
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.flash-error {
+    background: rgba(255, 0, 0, 0.63);
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.flash-container {
+    padding-left: 10rem;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.container h1 {
+    text-align: center;
+    color: darkturquoise;
+    margin-bottom: 2rem;
+}
+
+.container table {
+    margin-top: 2rem;
+}
+
+.container table th {
+    padding: 1rem;
+    color: #fff;
+    background: darkturquoise;
+}
+
+.container table td {
+    padding: .5rem;
+    text-align: center;
+    height: 100px;
+    border-bottom: 1px dotted darkturquoise;
+}
+
+.container table td:nth-of-type(1) {
+    text-align: left;
+}
+
+.container a {
+    text-decoration: none;
+    color: #00acaf;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a[class="deleteButton"] {
+    background: red;
+    border-radius: 50%;
+    color: #fff;
+    padding: 5px 8px;
+}
+
+a[class="addButton"] {
+    background: darkturquoise;
+    color: #fff;
+    font-weight: bold;
+    padding: .6rem;
+    text-decoration: none;
+}
+
+label, select, input{
+    width: 300px;
+    padding: .5rem;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+form {
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    width: 70%;
+}
+
+.login-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 50px;
+    padding: 2rem;
+}
+
+#login a {
+    color: darkturquoise;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
